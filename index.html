@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quickspin</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" href="two.jpg" type="image/jpg">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="main">
+            <h1 style="margin-top:-1em;"><small><small><i class='fa fa-scroll' style='color:#01010a; text-shadow:0 0 1px grey;'></i> Quickspin</small></small></h1>
+            <p style="text-align: center; margin-bottom: 0.6em;"></p>
+            <div class="container">
+                <canvas id="wheel"></canvas>
+                <button id="spin-btn">SPIN</button>
+                <img src="https://cdn-icons-png.flaticon.com/128/9590/9590006.png" alt="spinner-arrow" />
+            </div>
+            <div id="final-value" style="margin-top:1em; margin-bottom: 0.6em; font-size: 18px;">
+                <p><b>Click the SPIN to Start!</b></p>
+            </div>
+            <div id="real-question" style="font-size: 20px; font-weight: bold; color: #333; text-shadow: 2px 2px 5px #aaa, 4px 4px 10px #ccc; text-align: center;">
+
+            </div><br><br>
+            
+        </div>
+    </div>
+
+    <!-- Chart JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <!-- Chart JS Plugin for displaying text over chart -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.1.0/chartjs-plugin-datalabels.min.js"></script>
+    <!-- Script JS -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
